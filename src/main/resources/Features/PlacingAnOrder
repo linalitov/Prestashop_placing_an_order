@@ -1,0 +1,19 @@
+Feature: User places the order
+
+  Scenario: Placing the order
+    Given Navigates to to login page
+    When The user inputs the email
+    And The user inputs the password
+    And The user clicks Sign In button
+    And The user clicks on Women section
+    And The user clicks on the product's button
+    And The user selects the product's size
+    And The user clicks  Add to the cart button
+    And The user clicks  Proceed to check out button
+    And The user clicks  Proceed to check out button again
+    And The user clicks  Confirm address button
+    And The user clicks  Confirm delivery option button
+    And The user selects payment type
+    And The user accepts agreement
+    And The user clicks  Submit button
+    Then YOUR ORDER IS CONFIRMED message shows up
